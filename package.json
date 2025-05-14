@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+      "vercel-build": "npm install --force && npm run build"
   },
   "dependencies": {
     "@react-jvectormap/core": "^1.0.4",
